@@ -1,3 +1,6 @@
+
+game.showLongText("V této hře je nutné se vyhýbat různým překážkám. Pozor! Zvířata ubírají 2 životy.... Hodně štěstí!", DialogLayout.Center)
+
  //Vytvoreni Auta
 let car = sprites.create(assets.image`car`, SpriteKind.Player)
 car.z = 1
@@ -26,7 +29,7 @@ game.onUpdate(function() {
 })
 
 //Spawn Prekazek
-game.onUpdateInterval(1000, function() {
+game.onUpdateInterval(1200, function() {
 
     let rnd = randint(1, 3)
        
